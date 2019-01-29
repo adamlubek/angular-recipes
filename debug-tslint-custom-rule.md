@@ -17,10 +17,10 @@
 }
 ```
 
-4. Compile your rule: tsc tslint-rules/noImportsRule.ts
+4. Compile your rule: tsc --sourcemap tslint-rules/noImportsRule.ts
 
-5. Previous step generated 'noImportsRule.js' file inside tslint-rules folder.
-Open this JS file and add breakpoint anywhere in the file (NOTE: adding breakpoint is TS file will not work!)
+5. Previous step generated 'noImportsRule.js' and 'noImportsRule.js.map' files inside tslint-rules folder.
+Add a breakpoint anywhere in TS or JS files
 
 6. Add VSC debug config (in launch.json):
 
